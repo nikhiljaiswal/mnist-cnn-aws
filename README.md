@@ -27,7 +27,7 @@ The model follows a carefully designed architecture with the following key compo
 
 ### Model 1: The Skeleton
 
-**Reference:** **[Model_1](path/to/model.ipynb)**  
+**Reference:** **[Model_1](Model_1.ipynb)**  
 
 **Target:**  
 Get the basic skeleton right.  
@@ -47,7 +47,7 @@ The model is lighter; however, we can increase its capacity to fit under 8k para
 
 ### Model 2: Increase the Capacity
 
-**Reference:** **[Model_3](path/to/model.ipynb)**
+**Reference:** **[Model_2](Model_2.ipynb)**
 
 **Target:**  
 Increase model capacity by adding more layers.  
@@ -65,7 +65,7 @@ We can add image augmentation techniques to further improve test accuracy.
 
 ### Model 3: Image Augmentation
 
-**Reference:** **[Model_3](path/to/model.ipynb)**
+**Reference:** **[Model_3](Model_3.ipynb)**
 
 **Target:**  
 Add image augmentation techniques such as rotation, translation, scaling, etc.  
@@ -85,11 +85,7 @@ The test accuracy improvement indicates that the test data contained some transf
 Created a Notebook Instance on AWS SageMaker & executed **Model_3**
 
 - #### Notebook Instance Creation
-![Training Logs](images/aws_instance_creation.png)
+![Training Logs](images/aws_instance_creation.PNG)
 
 - #### Model Training Logs
-![Training Logs](images/aws_training.png)
-
-
-
-
+![Training Logs](images/aws_training.PNG)
